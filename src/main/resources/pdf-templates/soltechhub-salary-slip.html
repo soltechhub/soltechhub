@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+
+    <title>Payment Receipt</title>
+
+</head>
+
+<body>
+
+<img class="logo" src="images/logo.png"/>
+
+<div>
+
+    <p>Name : <span th:text="${supportName}"></span></p>
+
+    <p>Address : <span th:text="${address}"></span></p>
+
+    <p>Mobile : <span th:text="${mobileNumber}"></span></p>
+
+    <p>Amount paid : <span th:text="${amountPaid}"></span></p>
+
+</div>
+
+</body>
+
+</html>
